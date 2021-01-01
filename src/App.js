@@ -11,12 +11,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyAMQUGZ9iX3wVfQ1vsxpN1ArmlCJn5Hn1Y',
-  authDomain: 'kliment-sidorov.firebaseapp.com',
-  projectId: 'kliment-sidorov',
-  storageBucket: 'kliment-sidorov.appspot.com',
-  messagingSenderId: '694108940498',
-  appId: '1:694108940498:web:7ccb5352a0da6ca523e50b',
+  
 });
 
 const auth = firebase.auth();
